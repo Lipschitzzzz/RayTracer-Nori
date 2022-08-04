@@ -1,0 +1,78 @@
+<scene>
+    <integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+        <boolean name="nee" value="true"/>
+	</integrator>
+
+	<camera type="perspective">
+		<float name="fov" value="27.7856"/>
+		<transform name="toWorld">
+			<scale value="-1,1,1"/>
+			<lookat target="0, 0.893051, 4.41198" origin="0, 0.919769, 5.41159" up="0, 1, 0"/>
+		</transform>
+
+		<integer name="height" value="400"/>
+		<integer name="width" value="600"/>
+        <rfilter type="mitchell">
+            <float name="radius" value="3.0"/>
+            <float name="B" value="0.333333"/>
+            <float name="C" value="0.333333"/>
+        </rfilter>
+	</camera>
+
+	<sampler type="independent">
+		<integer name="sampleCount" value="512"/>
+	</sampler>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/walls.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.725 0.71 0.68"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/rightwall.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.161 0.133 0.427"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/leftwall.obj"/>
+
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.630 0.065 0.05"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/sphere1.obj"/>
+
+		<bsdf type="mirror"/>
+	</mesh>
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/sphere2.obj"/>
+
+		<bsdf type="dielectric"/>
+	</mesh>
+	
+	<mesh type="parallelogram">
+		<string name="name" value="light"/>
+        <point name="origin" value="0.230000 1.580000 -0.220000"/>
+        <vector name="v" value="-0.47 0 0" />
+        <vector name="u" value="0 0 0.38" />
+
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="40 40 40"/>
+		</emitter>
+	</mesh>
+
+</scene>

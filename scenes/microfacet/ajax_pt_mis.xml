@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!-- Scene from last year, but inside a box (generated from ajax_box.blend - see tutor repo) -->
+<scene>
+	<!-- Independent sample generator, 32 samples per pixel -->
+	<sampler type="independent">
+		<integer name="sampleCount" value="8"/>
+	</sampler>
+
+	<!-- Use the simple point light integrator -->
+    <integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+		<float name="rr_prob" value="0.9"/>
+        <boolean name="nee" value="true"/>
+        <boolean name="mis" value="true"/>
+	</integrator>
+
+	
+	<mesh type="obj">
+		<string name="filename" value="meshes/bunny.obj"/>
+		<bsdf type="microfacet">
+			<color name="albedo" value="0.1 0.1 0.1"/>
+			<float name="m_alpha" value="0.3"/>
+		</bsdf>
+	</mesh>
+
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/ajax_box.obj"/>
+
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.1 0.1 0.1"/>
+		</bsdf>
+	</mesh>
+	
+	<mesh type="parallelogram">
+		<string name="name" value="light"/>
+        <point name="origin" value="-46 47 -34"/>
+        <vector name="u" value="25 -5 -27" />
+        <vector name="v" value="2 2 1" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="0 21 30"/>
+		</emitter>
+	</mesh>
+    
+	<mesh type="parallelogram">
+		<string name="name" value="light2"/>
+        <point name="origin" value="-200, 50, -200"/>
+        <vector name="u" value="500, 0, 0" />
+        <vector name="v" value="0, 0, 500" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="0.14 0.132 0.1"/>
+		</emitter>
+	</mesh>
+    
+	<mesh type="parallelogram">
+		<string name="name" value="floor"/>
+        <point name="origin" value="-500, -0.1, -500"/>
+        <vector name="u" value="0, 0, 1000" />
+        <vector name="v" value="1000, 0, 0" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.35 0.35 0.35"/>
+		</bsdf>
+    </mesh>
+
+	<!-- Render the scene viewed by a perspective camera -->
+	<camera type="perspective">
+        <!-- 3D origin, target point, and 'up' vector -->
+		<transform name="toWorld">
+            <lookat target="-0.0123771, 0.0540913, -0.239922"
+                    origin="-0.0315182, 0.284011, 0.7331"
+                    up="0.00717446, 0.973206, -0.229822"/>
+		</transform>
+
+		<!-- Field of view: 30 degrees -->
+		<float name="fov" value="16"/>
+
+		<!-- 768 x 768 pixels -->
+		<integer name="width" value="768"/>
+		<integer name="height" value="768"/>
+	</camera>
+</scene>

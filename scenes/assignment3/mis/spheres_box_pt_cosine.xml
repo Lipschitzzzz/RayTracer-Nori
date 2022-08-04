@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<!-- Scene generated from spheres_box.blend (see tutor repo) -->
+<scene>
+	<integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+		<float name="rr_prob" value="0.9"/>
+		<boolean name="nee" value="false"/>
+		<boolean name="mis" value="false"/>
+	</integrator>
+	<sampler type="independent">
+		<integer name="sampleCount" value="32"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="39.597752709049864"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="100.0"/>
+		<transform name="toWorld">
+			<lookat target="30.50382423400879, -2.9802322387695312e-08, 4.930243492126465" origin="31.501388549804688, 0.0, 5.0" up="-0.06975649297237396, 0.0, 0.9975640773773193"/>
+		</transform>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<rfilter type="box"/>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_sphere1.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5488520264625549, 0.5488520264625549, 0.5488520264625549"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_left_wall.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.9399778246879578, 1.0, 0.3550094664096832"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_floor.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_right_wall.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.103496253490448, 1.0, 0.42037925124168396"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_ceiling.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.3031976521015167, 0.3031976521015167, 0.3031976521015167"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_sphere2.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5488520264625549, 0.5488520264625549, 0.5488520264625549"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_cylinder1.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5488520264625549, 0.5488520264625549, 0.5488520264625549"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_back.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.75, 0.75, 0.75"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_cube.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.75, 0.75, 0.75"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/spheres_box_cylinder2.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5488520264625549, 0.5488520264625549, 0.5488520264625549"/>
+		</bsdf>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="parallelogram_light_from_top"/>
+		<point name="origin" value="8.812276840209961, 7.270496368408203, 10.916374206542969"/>
+		<vector name="u" value="-0.0, -14.540992736816406, -0.0"/>
+		<vector name="v" value="-14.399479866027832, -0.0, 2.0237152576446533"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="0.51, 0.9, 2.36"/>
+		</emitter>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="parallelogram_light_from_camera"/>
+		<point name="origin" value="2.270724296569824, 8.402851104736328, 1.1379401683807373"/>
+		<vector name="u" value="-1.903318766682875e-17, -0.11149188131093979, 0.7828227281570435"/>
+		<vector name="v" value="-0.7907223701477051, -1.072632914245608e-18, -1.9378026029312308e-17"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="119.95, 0.0, 0.0"/>
+		</emitter>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+</scene>

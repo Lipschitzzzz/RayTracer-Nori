@@ -1,0 +1,3802 @@
+<?xml version="1.0" ?>
+<!-- Scene from last year -->
+<scene>
+	<integrator type="normals"/>
+	<sampler type="independent">
+		<integer name="sampleCount" value="32"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="115.9892342964027"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="1000.0"/>
+		<integer name="width" value="960"/>
+		<integer name="height" value="540"/>
+		<transform name="toWorld">
+			<scale value="1.000000 1.000000 -1.000000"/>
+			<matrix value="0.12674710154533386,-0.015806831419467926,0.9918091297149658,22.786149978637695,0.9919262528419495,-0.002188954269513488,-0.12679696083068848,-4.693492889404297,0.0041752830147743225,0.9998726844787598,0.015401768498122692,1.4399093389511108,0.0,0.0,0.0,1.0"/>
+		</transform>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group262_material_191.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group69_material_62.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group58_material_0.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.100000,0.100000,0.100000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group336_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group292_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group159_material_132.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group67_material_60.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group55_material_49.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group244_material_181.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group342_material_223.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group11_material_11.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group240_material_180.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group414_material_280.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group413_material_279.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group388_material_257.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group428_material_034.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group284_material_202.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group95_material_84.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group374_material_250.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group291_material_210.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group309_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group13_material_13.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.549020,0.549020,0.549020"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group44_material_39.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group228_material_174.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group253_material_184.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group103_material_91.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group72_material_65.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group158_material_131.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group156_material_130.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group105_material_93.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group144_materialu.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group61_material_54.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group314_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group324_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group254_material_185.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group179_material_149.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group160_material_133.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group325_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group231_material_176.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group395_material_264.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group145_materialw.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group4_material_4.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group224_material_170.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group32_material_30.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group235_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group225_material_171.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group371_material_246.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group304_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group23_material_21.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group198_material_153.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group243_material_179.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group316_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group245_material_182.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group62_material_55.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group142_materialu.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group109_material_97.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group39_material_35.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group21_material_19.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group51_material_45.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group18_material_16.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group297_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group287_material_206.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group167_material_139.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.445692,0.119083,0.004669"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group343_material_224.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group366_material_246.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group82_material_72.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group401_material_269.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group30_material_28.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group155_material_129.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group261_material_190.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group119_materiali.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group211_material_164.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group223_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group63_material_56.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group194_material_154.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group266_material_194.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.571184,0.601764,0.607166"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group107_material_95.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group204_material_159.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group202_material_157.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group154_material_128.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group9_material_9.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group323_material_217.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group140_materialu.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group327_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group236_material_177.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group268_material_196.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group199_material_158.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group8_material_8.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group307_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group171_material_142.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group132_materialp.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group221_material_165.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group364_material_244.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group259_material_189.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group375_material_251.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group137_materialu.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group378_material_254.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group264_material_192.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group293_material_211.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group357_material_237.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group281_material_202.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group24_material_22.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group227_material_173.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group22_material_20.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group222_material_169.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group382_material_257.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group89_material_79.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group195_material_157.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group351_material_232.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group152_material_126.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group152_material_127.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group136_materialt.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group26_material_24.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group345_material_226.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group367_material_243.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group258_material_188.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group341_material_222.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group387_material_259.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group391_material_259.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group338_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group15_material_14.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group359_material_239.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group288_material_207.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group310_material_211.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group20_material_18.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group161_material_134.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group302_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group141_materialt.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group19_material_17.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group36_material_33.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group349_material_230.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group242_material_180.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group356_material_236.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group135_materials.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group260_material_186.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group220_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group419_material_280.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group419_CafeChair_Metal.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.480000,0.480000,0.480000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group28_material_26.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group75_material_56.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group276_material_201.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group385_material_260.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group76_material_68.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group408_material_276.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group308_material_210.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group207_material_162.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group170_material_138.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.147313,0.165899,0.988525"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group49_material_44.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group52_material_46.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group148_materialz.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group197_material_158.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group27_material_25.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group265_material_193.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group404_material_272.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group104_material_92.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group189_material_155.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group169_material_141.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group239_material_179.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group90_material_80.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group294_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group203_material_160.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group348_material_229.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group226_material_172.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group191_material_155.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group163_material_134.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group289_material_208.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group29_material_27.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group373_material_249.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group229_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group246_material_181.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group68_material_61.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group149_material_123.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group330_material_213.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group178_material_148.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group247_material_182.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group407_material_275.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group125_materiali.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group112_material_15.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group114_materiale.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group232_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group363_material_243.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group313_material_214.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group175_material_145.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group41_material_37.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group272_material_197.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group78_material_70.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group147_materialy.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group99_material_88.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group84_material_72.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group73_material_66.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group10_material_10.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group380_material_256.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group368_material_246.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group98_material_87.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group403_material_271.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group86_material_76.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group164_material_136.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group133_materialr.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.750000,0.750000,0.750000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group275_material_200.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group2_material_2.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group209_material_161.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group217_material_167.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group321_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group335_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group216_material_166.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group386_material_261.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group48_material_43.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group353_material_234.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group358_material_238.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group270_material_195.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group377_material_253.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group3_material_3.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group215_material_165.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group285_material_203.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group65_material_58.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group322_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group277_material_202.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group411_material_277.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group128_materialn.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group406_material_274.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group193_material_157.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group361_material_241.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group248_material_181.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group233_material_173.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group96_material_85.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group424_material_280.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group424_CafeChair_Metal.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.480000,0.480000,0.480000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group238_material_178.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group206_material_161.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group97_material_86.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group31_material_29.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group34_material_6.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group365_material_245.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group172_material_143.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group397_material_266.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group188_material_154.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group157_material_123.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group257_material_186.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group70_material_63.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group298_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group143_materialv.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group251_material_182.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group339_material_220.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group332_material_219.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.054911,0.151899,0.052347"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group417_material_280.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group344_material_225.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group360_material_240.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group46_material_41.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group362_material_242.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group101_material_70.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group295_material_213.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group392_material_261.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group83_material_74.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group311_material_218.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group350_material_231.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group192_material_156.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group420_material_285.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group282_material_205.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group180_material_148.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group305_material_218.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group45_material_40.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group252_material_183.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group201_material_154.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group393_material_260.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group183_material_148.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group237_material_172.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group256_material_187.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group190_material_156.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group196_material_154.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group100_material_89.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group333_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group205_material_154.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group280_material_203.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group212_material_162.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group376_material_252.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group139_materialt.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group210_material_163.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group273_material_198.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group355_material_235.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group300_material_216.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group200_material_159.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group263_material_190.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group57_material_51.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group64_material_57.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group56_material_45.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group173_material_144.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group174_material_141.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group412_material_278.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group320_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group398_material_267.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group146_materialx.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group283_material_201.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group347_material_228.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group381_material_254.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group33_material_31.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group340_material_221.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group74_material_67.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group269_material_194.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.571184,0.601764,0.607166"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group130_materialp.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group306_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_286.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_042.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.142338,0.462081,0.235328"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_282.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_0.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.100000,0.100000,0.100000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_038.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.086274,0.082353,0.074510"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_Default.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.480000,0.480000,0.480000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_materialo.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_36.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_040.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.301950,0.875973,0.726676"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_materialq.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Default_material_287.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group352_material_233.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group14_material_47.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group422_material_280.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group319_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group66_material_59.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group241_material_179.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group85_material_75.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group6_material_6.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group383_material_258.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group12_material_12.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.750000,0.750000,0.750000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group106_material_94.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group176_material_146.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group138_materialv.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group185_material_150.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group389_material_262.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group213_material_161.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group186_material_152.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group286_material_204.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group354_material_232.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group187_material_153.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group111_material_52.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.337255,0.286275,0.223529"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group60_material_53.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group87_material_77.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group25_material_23.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group47_material_42.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group271_material_196.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group370_material_247.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group326_material_210.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group290_material_209.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group337_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group168_material_140.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.008911,0.377880,0.531663"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group444_material_041.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group402_material_270.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group177_material_147.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group1_material_1.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group108_material_96.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group0_material_0.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.100000,0.100000,0.100000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group249_material_182.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group91_material_76.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group91_material_81.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group390_material_263.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group7_material_7.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group230_material_175.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group379_material_255.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group16_material_12.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.750000,0.750000,0.750000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group303_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group5_material_5.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group134_materialp.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group328_material_211.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group38_material_6.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group369_material_240.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group88_material_78.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.808740,0.585009,0.479873"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group346_material_227.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group208_material_163.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group53_material_47.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group71_material_64.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group334_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group279_material_204.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group218_material_168.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group274_material_199.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group182_material_147.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group312_material_213.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group331_material_214.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group80_material_72.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group166_material_138.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.147313,0.165899,0.988525"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group219_material_169.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group329_material_218.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group317_material_215.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.858824,0.803922,0.141176"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group77_material_69.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group234_material_176.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group415_material_281.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group427_material_033.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group299_material_217.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group17_material_15.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group250_material_181.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group37_material_34.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group37_material_13.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.549020,0.549020,0.549020"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group181_material_150.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group94_material_76.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group94_material_81.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group315_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group35_material_32.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group267_material_195.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group396_material_265.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group113_materiald.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group150_material_124.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group150_material_125.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group162_material_135.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group405_material_273.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group278_material_203.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group165_material_137.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group255_material_186.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group214_material_163.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group384_material_259.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group50_material_14.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group296_material_214.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group426_material_032.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group410_material_276.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group184_material_151.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group301_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group394_material_259.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group110_material_98.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group54_material_48.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group81_material_73.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group318_material_212.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.340958,0.397245,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group102_material_90.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group372_material_248.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/group442_material_041.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.0,0.0,0.0,0.0,0.0,-4.371138828673793e-08,-1.0,0.0,0.0,1.0,-4.371138828673793e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Icosphere_Material.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="169.57582092285156,0.0,0.0,0.0,0.0,169.57582092285156,0.0,0.0,0.0,0.0,169.57582092285156,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000,0.800000,0.800000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/san_miguel/Plane_sun.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="-0.6410602927207947,0.1804157942533493,0.7459838390350342,-64.72478485107422,0.2293061912059784,0.9726056456565857,-0.03817017003893852,-17.244932174682617,-0.7324345707893372,0.14658933877944946,-0.6648693084716797,129.210205078125,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000,0.800000,0.800000"/>
+		</bsdf>
+	</mesh>
+</scene>

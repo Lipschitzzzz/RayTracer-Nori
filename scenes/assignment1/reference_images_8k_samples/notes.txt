@@ -1,0 +1,1 @@
+Rendered with spatial acceleration structure from EPFL, which produces white patches for ambient occlusion. 

@@ -1,0 +1,3 @@
+Rendered without spatial acceleration structure, because I guess there is some kind of issue regarding ray length in the EPFL reference solution which produces white patches for ambient occlusion. 
+
+Student solutions of assignment1 in 2022 are also without spatial acceleration structure. 

@@ -1,0 +1,118 @@
+image: localhost:5001/render_image2
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - build
+
+stages:
+  - test
+  - latex
+  
+testing0:
+  stage: test
+  script:
+    - cmake . -Bbuild
+    - cd build
+    - make -j8
+    - cd ..
+    - cp -r /resources/assignment0/* .
+    - python3 run_tests.py
+  tags:
+    - rendering
+  only:
+    - submission0
+  allow_failure: false
+  artifacts:
+    paths: 
+      - ./*.png
+      - ./*.csv
+      - report_fh.tex
+    expire_in: 1 d
+  
+testing1:
+  stage: test
+  script:
+    - cmake . -Bbuild
+    - cd build
+    - make -j8
+    - cd ..
+    - cp -r /resources/assignment1/* .
+    - python3 run_tests_fh.py
+  tags:
+    - rendering
+  only:
+    - submission1
+  allow_failure: false
+  artifacts:
+    paths: 
+      - ./*.png
+      - ./*.csv
+      - report_fh.tex
+    expire_in: 1 d
+    
+testing2:
+  stage: test
+  script:
+    - cmake . -Bbuild
+    - cd build
+    - make -j8
+    - cd ..
+    - cp -r /resources/assignment2/* .
+    - python3 run_tests_fh.py
+  tags:
+    - rendering
+  only:
+    - submission2
+  allow_failure: false
+  artifacts:
+    paths: 
+      - ./*.png
+      - ./*.csv
+      - report_fh.tex
+    expire_in: 1 d
+
+testing3:
+  stage: test
+  script:
+    - cmake . -Bbuild
+    - cd build
+    - make -j8
+    - cd ..
+    - cp -r /resources/assignment3/* .
+    - python3 run_tests_fh.py
+  tags:
+    - rendering
+  only:
+    - submission3
+  allow_failure: false
+  artifacts:
+    paths: 
+      - ./*.png
+      - ./*.csv
+      - report_fh.tex
+    expire_in: 1 d
+    
+report:
+  variables:
+    GIT_SUBMODULE_STRATEGY: none
+  stage: latex
+  image: localhost:5001/tex_image
+  script:
+    - pdflatex report_fh.tex
+  tags:
+    - latex-minimal
+  only:
+    - submission0
+    - submission1
+    - submission2
+    - submission3
+  allow_failure: false
+  artifacts:
+    paths: 
+      - report_fh.pdf
+    expire_in: 1 d

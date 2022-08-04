@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<!-- Scene generated from veach_room.blend (see tutor repo) -->
+<scene>
+	<integrator type="direct_lighting">
+		<boolean name="surface_sampling" value="false"/>
+		<boolean name="mis_sampling" value="false"/>
+	</integrator>
+	<sampler type="independent">
+		<integer name="sampleCount" value="512"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="39.597752709049864"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="100.0"/>
+		<transform name="toWorld">
+			<lookat target="13.003311157226562, -0.4582267105579376, 4.930243015289307" origin="14.0, -0.5, 5.0" up="-0.06969553232192993, 0.0029210150241851807, 0.9975639581680298"/>
+		</transform>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<rfilter type="box"/>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_box.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_stand.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_top.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_middle.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg3.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg1.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_top.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg4.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg2.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_egg.obj"/>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/mesh_light_from_table.obj"/>
+		<emitter type="area">
+			<color name="radiance" value="62.5, 62.5, 62.5"/>
+		</emitter>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/mesh_light_from_lamp.obj"/>
+		<emitter type="area">
+			<color name="radiance" value="319.7099914550781, 319.7099914550781, 319.7099914550781"/>
+		</emitter>
+	</mesh>
+</scene>

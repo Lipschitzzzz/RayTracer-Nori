@@ -1,0 +1,84 @@
+<scene>
+	<sampler type="halton">
+		<integer name="sampleCount" value="128"/>
+	</sampler>
+
+	<!-- Use the simple point light integrator -->
+    <integrator type="direct_lighting">
+        <boolean name="surface_sampling" value="true"/>
+        <boolean name="mis_sampling" value="false"/>
+    </integrator>
+
+
+	<mesh type="obj">
+		<string name="filename" value="meshes/ajax.obj"/>
+
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+	</mesh>
+
+	<mesh type="parallelogram">
+		<string name="name" value="light"/>
+        <point name="origin" value="-46 47 -34"/>
+        <vector name="u" value="25 -5 -27" />
+        <vector name="v" value="2 2 1" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="0 21 30"/>
+		</emitter>
+	</mesh>
+    
+	<mesh type="parallelogram">
+		<string name="name" value="light2"/>
+        <point name="origin" value="-200, 50, -200"/>
+        <vector name="u" value="500, 0, 0" />
+        <vector name="v" value="0, 0, 500" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="0.14 0.132 0.1"/>
+		</emitter>
+	</mesh>
+    
+	<mesh type="parallelogram">
+		<string name="name" value="floor"/>
+        <point name="origin" value="-500, -0.1, -500"/>
+        <vector name="u" value="0, 0, 1000" />
+        <vector name="v" value="1000, 0, 0" />
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>
+    </mesh>
+
+	<!-- Render the scene viewed by a perspective camera -->
+	<camera type="perspective">
+        <!-- 3D origin, target point, and 'up' vector -->
+		<transform name="toWorld">
+            <lookat target="-64.8161, 47.2211, 23.8576"
+                    origin="-65.6055, 47.5762, 24.3583"
+                    up="0.299858, 0.934836, -0.190177"/>
+		</transform>
+
+		<!-- Field of view: 30 degrees -->
+		<float name="fov" value="30"/>
+
+		<!-- 768 x 768 pixels -->
+		<integer name="width" value="768"/>
+		<integer name="height" value="768"/>
+        <rfilter type="mitchell">
+            <float name="radius" value="3.0"/>
+            <float name="B" value="0.333333"/>
+            <float name="C" value="0.333333"/>
+        </rfilter>
+	</camera>
+</scene>

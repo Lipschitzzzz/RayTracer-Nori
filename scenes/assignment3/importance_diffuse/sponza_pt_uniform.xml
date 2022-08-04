@@ -1,0 +1,3595 @@
+<?xml version="1.0" ?>
+<!-- Scene copied from assignment2 (high poly), but with different parameters -->
+<scene>
+	<integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+        <boolean name="nee" value="false"/>
+	</integrator>
+	<sampler type="independent">
+		<integer name="sampleCount" value="64"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="107.18245243742109"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="1000.0"/>
+		<transform name="toWorld">
+			<matrix value="0.1736917644739151,-0.1371029168367386,-0.9751986265182495,3.6480000019073486,0.9848014116287231,0.024181483313441277,0.1719980537891388,-0.30300000309944153,-3.1191541438602144e-07,0.9902999997138977,-0.13921210169792175,2.321000099182129,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<integer name="width" value="960"/>
+		<integer name="height" value="540"/>
+		<rfilter type="box"/>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/Icosphere_Material.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.5,0.0,0.0,0.0,0.0,10.5,0.0,0.0,0.0,0.0,10.5,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5299999713897705, 0.8100000023841858, 0.9200000166893005"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_57_sponza_57_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_256_sponza_256_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_251_sponza_251_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_83_sponza_83_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_363_sponza_363_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_70_sponza_70_details_details.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_105_sponza_105_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_367_sponza_367_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_16_sponza_16_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_158_sponza_158_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_334_sponza_334_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_258_sponza_258_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_160_sponza_160_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_219_sponza_219_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_140_sponza_140_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_144_sponza_144_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_41_sponza_41_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_369_sponza_369_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_156_sponza_156_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_25_sponza_25_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_122_sponza_122_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_316_sponza_316_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_237_sponza_237_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_181_sponza_181_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_381_sponza_381_roof_roof.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_55_sponza_55_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_286_sponza_286_fabric_d_fabric_d.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_22_sponza_22_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_120_sponza_120_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_207_sponza_207_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_51_sponza_51_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_177_sponza_177_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_376_sponza_376_vase_vase.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_60_sponza_60_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_24_sponza_24_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_250_sponza_250_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_216_sponza_216_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_75_sponza_75_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_329_sponza_329_fabric_g_fabric_g.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_77_sponza_77_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_141_sponza_141_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_265_sponza_265_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_90_sponza_90_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_378_sponza_378_Material__298_Material__298.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_231_sponza_231_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_61_sponza_61_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_10_sponza_10_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_324_sponza_324_fabric_f_fabric_f.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_261_sponza_261_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_306_sponza_306_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_175_sponza_175_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_167_sponza_167_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_290_sponza_290_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_227_sponza_227_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_14_sponza_14_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_348_sponza_348_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_317_sponza_317_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_139_sponza_139_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_71_sponza_71_details_details.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_326_sponza_326_fabric_g_fabric_g.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_128_sponza_128_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_337_sponza_337_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_267_sponza_267_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_314_sponza_314_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_190_sponza_190_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_370_sponza_370_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_268_sponza_268_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_82_sponza_82_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_341_sponza_341_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_280_sponza_280_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_371_sponza_371_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_103_sponza_103_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_288_sponza_288_fabric_a_fabric_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_327_sponza_327_fabric_f_fabric_f.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_85_sponza_85_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_129_sponza_129_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_278_sponza_278_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_170_sponza_170_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_44_sponza_44_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_126_sponza_126_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_373_sponza_373_vase_vase.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_182_sponza_182_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_263_sponza_263_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_318_sponza_318_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_243_sponza_243_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_271_sponza_271_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_163_sponza_163_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_119_sponza_119_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_297_sponza_297_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_221_sponza_221_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_313_sponza_313_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_132_sponza_132_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_42_sponza_42_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_214_sponza_214_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_106_sponza_106_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_52_sponza_52_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_32_sponza_32_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_36_sponza_36_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_224_sponza_224_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_26_sponza_26_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_99_sponza_99_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_118_sponza_118_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_176_sponza_176_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_276_sponza_276_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_20_sponza_20_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_78_sponza_78_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_88_sponza_88_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_274_sponza_274_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_86_sponza_86_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_205_sponza_205_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_353_sponza_353_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_18_sponza_18_floor_floor.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8605483174324036, 0.6561218500137329, 0.22571469843387604"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_159_sponza_159_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_229_sponza_229_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_206_sponza_206_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_12_sponza_12_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_319_sponza_319_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_116_sponza_116_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_310_sponza_310_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_295_sponza_295_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_151_sponza_151_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_333_sponza_333_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_379_sponza_379_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_138_sponza_138_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_125_sponza_125_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_147_sponza_147_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_127_sponza_127_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_203_sponza_203_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_67_sponza_67_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_246_sponza_246_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_72_sponza_72_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_366_sponza_366_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_64_sponza_64_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_294_sponza_294_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_135_sponza_135_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_358_sponza_358_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_19_sponza_19_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_69_sponza_69_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_308_sponza_308_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_157_sponza_157_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_146_sponza_146_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_40_sponza_40_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_23_sponza_23_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_17_sponza_17_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_198_sponza_198_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_31_sponza_31_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_208_sponza_208_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_366_sponza_366_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_29_sponza_29_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_171_sponza_171_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_104_sponza_104_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_355_sponza_355_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_110_sponza_110_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_282_sponza_282_fabric_e_fabric_e.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_59_sponza_59_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_71_sponza_71_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_93_sponza_93_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_257_sponza_257_Material__47_Material__47.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_232_sponza_232_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_162_sponza_162_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_134_sponza_134_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_270_sponza_270_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_133_sponza_133_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_148_sponza_148_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_380_sponza_380_roof_roof.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_312_sponza_312_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_98_sponza_98_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_352_sponza_352_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_154_sponza_154_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_372_sponza_372_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_05_sponza_05_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_325_sponza_325_fabric_c_fabric_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_285_sponza_285_fabric_e_fabric_e.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_204_sponza_204_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_247_sponza_247_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_209_sponza_209_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_367_sponza_367_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_115_sponza_115_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_76_sponza_76_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_142_sponza_142_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_197_sponza_197_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_223_sponza_223_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_161_sponza_161_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_254_sponza_254_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_102_sponza_102_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_320_sponza_320_fabric_g_fabric_g.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_365_sponza_365_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_356_sponza_356_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_80_sponza_80_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_244_sponza_244_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_309_sponza_309_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_11_sponza_11_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_96_sponza_96_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_301_sponza_301_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_101_sponza_101_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_377_sponza_377_Material__298_Material__298.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_123_sponza_123_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_46_sponza_46_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_189_sponza_189_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_273_sponza_273_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_202_sponza_202_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_248_sponza_248_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_234_sponza_234_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_192_sponza_192_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_350_sponza_350_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_165_sponza_165_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_362_sponza_362_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_107_sponza_107_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_293_sponza_293_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_27_sponza_27_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_124_sponza_124_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_213_sponza_213_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_100_sponza_100_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_111_sponza_111_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_228_sponza_228_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_303_sponza_303_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_322_sponza_322_fabric_f_fabric_f.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_359_sponza_359_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_37_sponza_37_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_218_sponza_218_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_188_sponza_188_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_169_sponza_169_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_43_sponza_43_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_114_sponza_114_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_305_sponza_305_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_338_sponza_338_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_238_sponza_238_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_200_sponza_200_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_155_sponza_155_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_95_sponza_95_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_53_sponza_53_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_292_sponza_292_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_195_sponza_195_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_131_sponza_131_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_66_sponza_66_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_266_sponza_266_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_150_sponza_150_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_45_sponza_45_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_166_sponza_166_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_56_sponza_56_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_30_sponza_30_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_364_sponza_364_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_47_sponza_47_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_06_sponza_06_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_174_sponza_174_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_235_sponza_235_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_72_sponza_72_details_details.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_173_sponza_173_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_332_sponza_332_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_304_sponza_304_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_255_sponza_255_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_298_sponza_298_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_35_sponza_35_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_311_sponza_311_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_275_sponza_275_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_315_sponza_315_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_149_sponza_149_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_54_sponza_54_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_74_sponza_74_details_details.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_178_sponza_178_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_87_sponza_87_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_48_sponza_48_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_369_sponza_369_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_259_sponza_259_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_370_sponza_370_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_242_sponza_242_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_287_sponza_287_fabric_e_fabric_e.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2685796022415161, 0.4029220640659332, 0.8000000715255737"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_360_sponza_360_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_210_sponza_210_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_339_sponza_339_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_336_sponza_336_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_331_sponza_331_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_307_sponza_307_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_239_sponza_239_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_03_sponza_03_Material__298_Material__298.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="1.0, 1.0, 1.0"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_180_sponza_180_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_33_sponza_33_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_272_sponza_272_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_226_sponza_226_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_01_sponza_01_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_168_sponza_168_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_211_sponza_211_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_201_sponza_201_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_65_sponza_65_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_15_sponza_15_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_73_sponza_73_details_details.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_38_sponza_38_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_34_sponza_34_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_335_sponza_335_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_357_sponza_357_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_374_sponza_374_vase_vase.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_39_sponza_39_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_342_sponza_342_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_302_sponza_302_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_230_sponza_230_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_79_sponza_79_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_145_sponza_145_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_345_sponza_345_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_179_sponza_179_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_347_sponza_347_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_117_sponza_117_floor_floor.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8605483174324036, 0.6561218500137329, 0.22571469843387604"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_260_sponza_260_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_121_sponza_121_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_172_sponza_172_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_240_sponza_240_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_323_sponza_323_fabric_c_fabric_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_09_sponza_09_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_372_sponza_372_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_89_sponza_89_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_354_sponza_354_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_136_sponza_136_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_199_sponza_199_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_112_sponza_112_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_49_sponza_49_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_269_sponza_269_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_289_sponza_289_fabric_d_fabric_d.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_196_sponza_196_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_13_sponza_13_column_a_column_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_225_sponza_225_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_249_sponza_249_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_340_sponza_340_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_222_sponza_222_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_186_sponza_186_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_277_sponza_277_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_371_sponza_371_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_00_sponza_00_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_68_sponza_68_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_07_sponza_07_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_351_sponza_351_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_152_sponza_152_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_236_sponza_236_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_281_sponza_281_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_21_sponza_21_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_81_sponza_81_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_233_sponza_233_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_191_sponza_191_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_220_sponza_220_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_264_sponza_264_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_62_sponza_62_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_283_sponza_283_fabric_d_fabric_d.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.1587626039981842, 0.1587626039981842"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_215_sponza_215_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_321_sponza_321_fabric_c_fabric_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_296_sponza_296_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_58_sponza_58_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_346_sponza_346_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_185_sponza_185_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_330_sponza_330_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_137_sponza_137_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_368_sponza_368_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_284_sponza_284_fabric_a_fabric_a.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_212_sponza_212_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_164_sponza_164_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_279_sponza_279_leaf_leaf.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_217_sponza_217_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_344_sponza_344_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_130_sponza_130_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_253_sponza_253_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_300_sponza_300_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_349_sponza_349_chain_chain.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_184_sponza_184_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_97_sponza_97_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_368_sponza_368_Material__57_Material__57.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.7858456373214722, 0.8000000715255737, 0.047274377197027206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_108_sponza_108_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_193_sponza_193_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_252_sponza_252_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_50_sponza_50_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_01_sponza_01_vase_round_vase_round.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_375_sponza_375_vase_vase.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_361_sponza_361_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_94_sponza_94_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_328_sponza_328_fabric_c_fabric_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.31212949752807617, 0.8000000715255737, 0.34636467695236206"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_299_sponza_299_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_187_sponza_187_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_343_sponza_343_vase_hanging_vase_hanging.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_113_sponza_113_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_92_sponza_92_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_08_sponza_08_ceiling_ceiling.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_183_sponza_183_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_378_sponza_378_Material__25_Material__25.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_377_sponza_377_Material__25_Material__25.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_153_sponza_153_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_63_sponza_63_arch_arch.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_382_sponza_382_bricks_bricks.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925787687301636, 0.44463467597961426, 0.33453938364982605"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_84_sponza_84_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_291_sponza_291_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_194_sponza_194_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_143_sponza_143_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_109_sponza_109_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_241_sponza_241_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_91_sponza_91_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_262_sponza_262_flagpole_flagpole.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04445463418960571, 0.04445463418960571, 0.04445463418960571"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_28_sponza_28_column_c_column_c.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/sponza/sponza_245_sponza_245_column_b_column_b.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.0037829075008630753,0.0,0.0,0.0,0.0,-6.163138888126696e-10,-0.0037829075008630753,0.0,0.0,0.0037829075008630753,-6.163138888126696e-10,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.6859570741653442, 0.6859570741653442, 0.6859570741653442"/>
+		</bsdf>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="plane_light_custom4_do_not_delete"/>
+		<point name="origin" value="-4.57490873336792, 0.27846699953079224, 3.1007871627807617"/>
+		<vector name="u" value="-0.0, -0.30000001192092896, -0.0"/>
+		<vector name="v" value="-0.2954423427581787, -0.0, -0.052094459533691406"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="43.44, 40.84, 40.84"/>
+		</emitter>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="plane_light_custom5_do_not_delete"/>
+		<point name="origin" value="-4.57490873336792, 0.27846699953079224, 1.463907241821289"/>
+		<vector name="u" value="-0.0, -0.30000001192092896, -0.0"/>
+		<vector name="v" value="-0.2954423427581787, -0.0, -0.052094459533691406"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="43.44, 40.84, 40.84"/>
+		</emitter>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="plane_light_custom3_do_not_delete"/>
+		<point name="origin" value="-2.4667489528656006, 2.368629217147827, 7.6917853355407715"/>
+		<vector name="u" value="0.04955597221851349, -0.9978142976760864, -0.043718401342630386"/>
+		<vector name="v" value="-0.6620579957962036, -4.414469003677368e-05, -0.7494528889656067"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="112.56, 120.0, 75.36"/>
+		</emitter>
+	</mesh>
+</scene>

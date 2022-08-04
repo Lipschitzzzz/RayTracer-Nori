@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<!-- Scene copied from assignment1, but with different parameters -->
+<scene>
+	<integrator type="direct_lighting">
+        <boolean name="surface_sampling" value="false"/>
+        <boolean name="mis_sampling" value="false"/>
+    </integrator> 
+	<sampler type="independent">
+		<integer name="sampleCount" value="256"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="35.14625251087677"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="1500.0"/>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<transform name="toWorld">
+			<scale value="1.000000 1.000000 -1.000000"/>
+			<matrix value="1.0,-2.279973153091093e-14,3.019916050561733e-07,-277.99993896484375,3.019916050561733e-07,7.549790126404332e-08,-1.0,-766.3980102539062,0.0,1.0,7.549790126404332e-08,273.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+	</camera>
+    <mesh type="parallelogram">
+		<string name="name" value="light"/>
+        <point name="origin" value="-213 227 547.8"/>
+        <vector name="v" value="0 105 0" />
+        <vector name="u" value="-130 0 0" />
+
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1 1 1"/>
+		</bsdf>        
+
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="40 40 40"/>
+		</emitter>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/large_box_box_Material.obj"/>
+		<transform name="toWorld">
+			<matrix value="-48.88637161254883,-3.318031076560146e-06,157.59164428710938,-368.0000305175781,157.59164428710938,5.938217509537935e-05,48.88637161254883,351.0,-2.8849515729234554e-05,330.0,-7.2123789323086385e-06,165.00003051757812,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.500000,0.500000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/small_box_box_Material.obj"/>
+		<transform name="toWorld">
+			<matrix value="-79.0550308227539,1.1833527651106124e-06,23.591384887695312,-185.00001525878906,23.591384887695312,-6.85313261783449e-06,79.0550308227539,169.0,3.093634632023168e-06,82.50000762939453,6.22857760390616e-06,82.50001525878906,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.500000,0.500000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/cornell_box_cbox_Material.obj"/>
+		<transform name="toWorld">
+			<matrix value="-1.0,1.1399865765455465e-14,-1.5099580252808664e-07,0.0,-1.5099580252808664e-07,-7.549790126404332e-08,1.0,0.0,0.0,1.0,7.549790126404332e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.400000,0.400000,0.400000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/cornell_box_cbox_red.obj"/>
+		<transform name="toWorld">
+			<matrix value="-1.0,1.1399865765455465e-14,-1.5099580252808664e-07,0.0,-1.5099580252808664e-07,-7.549790126404332e-08,1.0,0.0,0.0,1.0,7.549790126404332e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.000000,0.000000"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/cornell_box_cbox_green.obj"/>
+		<transform name="toWorld">
+			<matrix value="-1.0,1.1399865765455465e-14,-1.5099580252808664e-07,0.0,-1.5099580252808664e-07,-7.549790126404332e-08,1.0,0.0,0.0,1.0,7.549790126404332e-08,0.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.000000,0.500000,0.000000"/>
+		</bsdf>
+	</mesh>
+</scene>

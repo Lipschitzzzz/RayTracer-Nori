@@ -1,0 +1,4 @@
+NORI_NAMESPACE_BEGIN
+using ParallelogramEmitter = AreaEmitter;
+NORI_REGISTER_CLASS(ParallelogramEmitter, "parallelogram_emitter");
+NORI_NAMESPACE_END

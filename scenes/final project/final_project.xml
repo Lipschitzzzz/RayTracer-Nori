@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<scene>
+	<integrator type="volume_path_tracer">
+		<boolean name="rr" value="true"/>
+		<boolean name="rr_dynamic" value="true"/>
+		<boolean name="nee" value="true"/>
+		<boolean name="mis" value="true"/>
+	</integrator>
+	<sampler type="independent">
+		<integer name="sampleCount" value="8"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="91.92751306414704"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="100.0"/>
+		<transform name="toWorld">
+			<lookat target="7.674539566040039, 24.798139572143555, 11.32288646697998" origin="6.808466911315918, 25.235624313354492, 11.564807891845703" up="0.21593523025512695, -0.10907703638076782, 0.9702959656715393"/>
+		</transform>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<rfilter type="box"/>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes\table_leg3.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.0,0.0,0.0,34.488739013671875,0.0,-1.6292068494294654e-06,-10.0,-23.591157913208008,0.0,10.0,-1.6292068494294654e-06,-8.090869903564453,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925781726837158, 0.5925781726837158, 0.5925781726837158"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\table_leg1.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.0,0.0,0.0,34.488739013671875,0.0,-1.6292068494294654e-06,-10.0,25.352142333984375,0.0,10.0,-1.6292068494294654e-06,-8.090869903564453,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925781726837158, 0.5925781726837158, 0.5925781726837158"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\table_leg4.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.0,0.0,0.0,10.144929885864258,0.0,-1.6292068494294654e-06,-10.0,-23.591157913208008,0.0,10.0,-1.6292068494294654e-06,-8.090869903564453,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925781726837158, 0.5925781726837158, 0.5925781726837158"/>
+		</bsdf>
+	</mesh>
+	<medium type="medium">
+        <phase type="iso"/>
+        <color name="sigma_a" value="0.15 0.15 0.15"/>
+        <color name="sigma_s" value="0.10 0.15 0.15"/>
+        <float name="max_density" value="3"/> <!--- from 2 to 7-->
+        <integer name="density_function" value="1"/> <!-- 1 is constant, 2 is exponentional decay-->
+        <vector name="origin" value="15, 20, 10"/>
+        <vector name="dimensions" value = "2.5 2.5 2.5"/>
+    </medium>
+	<mesh type="obj">
+		<string name="filename" value="meshes\table_leg2.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.0,0.0,0.0,10.144929885864258,0.0,-1.6292068494294654e-06,-10.0,25.352142333984375,0.0,10.0,-1.6292068494294654e-06,-8.090869903564453,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925781726837158, 0.5925781726837158, 0.5925781726837158"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\vu_text.obj"/>
+		<transform name="toWorld">
+			<matrix value="8.5,-1.7999450129153882e-21,0.0,-2.347846508026123,0.0,-3.715468039899861e-07,-8.5,-50.1833381652832,0.0,8.5,-3.715468039899861e-07,27.569427490234375,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.8000000715255737, 0.7496870756149292, 0.25396159291267395"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\tu_cube.obj"/>
+		<transform name="toWorld">
+			<matrix value="1.8956389427185059,0.6376152038574219,0.0,28.325763702392578,-0.6376152038574219,1.8956389427185059,0.0,-9.88744831085205,0.0,0.0,2.0,4.38960599899292,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\template_tu_wien.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\cg_klex_sphere2.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.05393652990460396,1.9992725849151611,0.0,23.931934356689453,-1.9992725849151611,0.05393652990460396,0.0,-20.107738494873047,0.0,0.0,2.0,4.4069390296936035,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\template_cg_klex.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\table_surface.obj"/>
+		<transform name="toWorld">
+			<matrix value="10.0,0.0,0.0,22.432775497436523,0.0,-1.6292068494294654e-06,-10.0,0.7775894403457642,0.0,10.0,-1.6292068494294654e-06,1.914114236831665,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.5925781726837158, 0.5925781726837158, 0.5925781726837158"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\dielectric_cube.obj"/>
+		<transform name="toWorld">
+			<matrix value="2.843458652496338,0.9564215540885925,0.0,28.299352645874023,-0.9564215540885925,2.843458652496338,0.0,6.555933475494385,0.0,0.0,3.0,5.58299446105957,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="dielectric"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\box.obj"/>
+		<transform name="toWorld">
+			<matrix value="-1.140444783231942e-05,50.0,-6.039831987436628e-06,0.0,70.0,8.146033906086814e-06,-1.077809282795661e-12,13.220789909362793,-1.6414251685289982e-13,-7.549790097982623e-06,-40.0,4.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.3061842620372772, 0.32516634464263916, 0.3123953938484192"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\box_behind_wall.obj"/>
+		<transform name="toWorld">
+			<matrix value="49.2039680480957,0.0,0.0,-0.22471725940704346,0.0,40.0,0.0,37.304039001464844,0.0,0.0,41.13770294189453,4.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.2357143759727478, 0.2561969757080078, 0.2506447732448578"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\box_right_wall.obj"/>
+		<transform name="toWorld">
+			<matrix value="-1.1084545803896617e-05,-40.0,0.0,-8.877157211303711,68.03645324707031,-6.5168273977178615e-06,0.0,10.153382301330566,0.0,0.0,40.0,4.0,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.04696163535118103, 0.04696163535118103, 0.04696163535118103"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\cg_klex_sphere1.obj"/>
+		<transform name="toWorld">
+			<matrix value="0.5624521970748901,1.3905565738677979,0.0,28.238405227661133,-1.3905565738677979,0.5624521970748901,0.0,6.526291370391846,0.0,0.0,1.5,5.585558891296387,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<emitter type="area">
+			<color name="radiance" value="4.000000357627869, 0.7009411603212357, 0.7873386889696121"/>
+		</emitter>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\glock18_model.obj"/>
+		<transform name="toWorld">
+			<matrix value="-0.3611956536769867,-0.8441184163093567,0.3962343633174896,15.569775581359863,-0.12886187434196472,-0.37566015124320984,-0.9177547097206116,16.000770568847656,0.9235432744026184,-0.38254857063293457,0.026912126690149307,3.484347105026245,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\glock_wasteland_rebel.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\v_rif_m4a1_s.001.obj"/>
+		<transform name="toWorld">
+			<matrix value="-0.15410533547401428,-0.4385654926300049,0.8853877186775208,13.463741302490234,0.14042963087558746,-0.8967170715332031,-0.41973504424095154,-3.6335413455963135,0.9780240058898926,0.059651270508766174,0.1997765153646469,8.584989547729492,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\m4a1_shatter.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\v_rif_m4a1_s_silencer.obj"/>
+		<transform name="toWorld">
+			<matrix value="-0.15410533547401428,-0.4385654926300049,0.8853877186775208,13.463741302490234,0.14042963087558746,-0.8967170715332031,-0.41973504424095154,-3.6335413455963135,0.9780240058898926,0.059651270508766174,0.1997765153646469,8.584989547729492,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\m4a1_shatter.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\body3_model0.obj"/>
+		<transform name="toWorld">
+			<matrix value="-0.15410533547401428,-0.4385654926300049,0.8853877186775208,13.463741302490234,0.14042963087558746,-0.8967170715332031,-0.41973504424095154,-3.6335413455963135,0.9780240058898926,0.059651270508766174,0.1997765153646469,8.584989547729492,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="diffuse">
+			<color name="albedo" value="0.800000011920929, 0.800000011920929, 0.800000011920929"/>
+			<string name="path" value="textures\m4a1_shatter.exr"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\mirror1.obj"/>
+		<transform name="toWorld">
+			<matrix value="3.1391647326017846e-07,1.0254597100356477e-06,-1.0,-46.77773666381836,0.0,1.0,1.0254597100356477e-06,-4.902862548828125,1.0,-3.2190870520414083e-13,3.1391647326017846e-07,11.92187786102295,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes\mirror2.obj"/>
+		<transform name="toWorld">
+			<matrix value="5.027542897551029e-07,1.7037497173078009e-06,-2.0,47.15033721923828,0.0,1.661449670791626,2.0509194200712955e-06,10.821149826049805,1.601554274559021,-5.348350885434061e-13,6.278329465203569e-07,3.983067035675049,0.0,0.0,0.0,1.0"/>
+		</transform>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="parallelogram_light_from_top.002"/>
+		<point name="origin" value="1.9149417877197266, 1.1601200103759766, 43.141666412353516"/>
+		<vector name="u" value="-0.0, -15.0, -0.0"/>
+		<vector name="v" value="-15.0, -0.0, -0.0"/>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="22.22, 22.22, 22.22"/>
+		</emitter>
+	</mesh>
+</scene>

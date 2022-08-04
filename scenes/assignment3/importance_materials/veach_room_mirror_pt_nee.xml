@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<!-- More realistic scene generated from veach_room_mirror.blend (see tutor repo) - use_cosine included manually -->
+<scene>
+	<integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+		<boolean name="nee" value="true"/>
+	</integrator>
+	<sampler type="independent">
+		<integer name="sampleCount" value="128"/>
+	</sampler>
+	<camera type="perspective">
+		<float name="fov" value="39.597752709049864"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="100.0"/>
+		<transform name="toWorld">
+			<lookat target="13.003311157226562, -0.4582267105579376, 4.930243015289307" origin="14.0, -0.5, 5.0" up="-0.06969553232192993, 0.0029210150241851807, 0.9975639581680298"/>
+		</transform>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<rfilter type="box"/>
+	</camera>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_box.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_stand.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.30319756269454956, 0.12556339800357819, 0.05114033445715904"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_top.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.30319756269454956, 0.12556339800357819, 0.05114033445715904"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_lamp_middle.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.30319756269454956, 0.12556339800357819, 0.05114033445715904"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg3.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg1.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_top.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.3296299874782562, 0.2579759955406189, 0.15029199421405792"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg4.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_leg2.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_lamp_base.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_table_lamp_top.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.5, 0.5, 0.5"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_egg_smaller1.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.25997793674468994, 0.49863070249557495, 0.7912979125976562"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_egg_smaller2.obj"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.25997793674468994, 0.49863070249557495, 0.7912979125976562"/>
+		</bsdf>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_egg1.obj"/>
+		<bsdf type="mirror"/>
+	</mesh>
+	<mesh type="obj">
+		<string name="filename" value="meshes/veach_egg2.obj"/>
+		<bsdf type="dielectric"/>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="parallelogram_light_from_lamp"/>
+		<point name="origin" value="-2.347703456878662, -2.2219347953796387, 5.998557090759277"/>
+		<vector name="u" value="-0.5045216679573059, -0.24132885038852692, 5.78251729166368e-06"/>
+		<vector name="v" value="0.24132885038852692, -0.5045216679573059, -2.543260198793751e-13"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="159.86, 159.86, 159.86"/>
+		</emitter>
+	</mesh>
+	<mesh type="parallelogram">
+		<string name="name" value="parallelogram_light_from_table"/>
+		<point name="origin" value="-2.415149688720703, 3.012098550796509, 4.5606560707092285"/>
+		<vector name="u" value="-0.05025525018572807, -0.16379965841770172, 0.3575846552848816"/>
+		<vector name="v" value="-0.375931978225708, -0.0, -0.05283379554748535"/>
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="199.3, 199.3, 199.3"/>
+		</emitter>
+	</mesh>
+</scene>

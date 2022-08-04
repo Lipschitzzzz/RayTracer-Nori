@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!-- Scene from last year, with slightly different cornell box -->
+<scene>
+
+	<sampler type="independent">
+		<integer name="sampleCount" value="64"/>
+	</sampler>
+    
+    <integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+        <boolean name="nee" value="false"/>
+	</integrator>
+    
+	<camera type="perspective">
+		<float name="fov" value="35"/>
+		<float name="nearClip" value="0.10000000149011612"/>
+		<float name="farClip" value="2500.0"/>
+		<integer name="width" value="500"/>
+		<integer name="height" value="500"/>
+		<transform name="toWorld">
+        <scale value="-1,-1,1"/>
+            <rotate axis="1,0,0" angle="90"/>
+            <translate value="-27.6, 84, -27.5"/>
+		</transform>
+	</camera>
+	
+	<mesh type="obj">
+		<string name="filename" value="meshes/cbox_base.obj"/>
+		
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.500000,0.500000"/>
+		</bsdf>
+	</mesh>
+    <mesh type="obj">
+		<string name="filename" value="meshes/large_box.obj"/>
+		
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.500000,0.500000"/>
+		</bsdf>
+	</mesh>
+    <mesh type="obj">
+		<string name="filename" value="meshes/small_box.obj"/>
+		
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.500000,0.500000"/>
+		</bsdf>
+	</mesh>
+    
+    <mesh type="obj">
+		<string name="filename" value="meshes/cbox_green.obj"/>
+		
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.000000,0.500000,0.000000"/>
+		</bsdf>
+	</mesh>
+    
+    <mesh type="obj">
+		<string name="filename" value="meshes/cbox_red.obj"/>
+		
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="0.500000,0.000000,0.000000"/>
+		</bsdf>
+	</mesh>
+    
+	<mesh type="parallelogram">
+		<string name="name" value="light"/>
+        <point name="origin" value="-33.500000 -9.50 -54.99"/>
+        <vector name="v" value="0 10.5 0" />
+        <vector name="u" value="13 0 0" />
+
+		<bsdf type="diffuse">
+			<boolean name="use_cosine" value="true"/>
+			<color name="albedo" value="1.000000,1.000000,1.000000"/>
+		</bsdf>
+		<emitter type="parallelogram_emitter">
+			<color name="radiance" value="140 140 140"/>
+		</emitter>
+	</mesh>
+    
+</scene>

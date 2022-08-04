@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!-- Scene from last year -->
+<scene>
+    <!-- Independent sample generator, one sample per pixel -->
+	<sampler type="independent">
+		<integer name="sampleCount" value="64"/>
+	</sampler>
+	<integrator type="path_tracer_recursive">
+		<boolean name="rr" value="true"/>
+		<float name="rr_prob" value="0.9"/>
+        <boolean name="nee" value="true"/>
+        <boolean name="mis" value="true"/>
+	</integrator>
+
+    <!-- Load the Stanford bunny (https://graphics.stanford.edu/data/3Dscanrep/) -->
+	<mesh type="obj">
+		<string name="filename" value="meshes/bunny.obj"/>
+		<bsdf type="diffuse"/>
+	</mesh>
+
+	<!-- Render the scene viewed by a perspective camera -->
+	<camera type="perspective">
+        <!-- 3D origin, target point, and 'up' vector -->
+		<transform name="toWorld">
+            <lookat target="-0.0123771, 0.0540913, -0.239922"
+                    origin="-0.0315182, 0.284011, 0.7331"
+                    up="0.00717446, 0.973206, -0.229822"/>
+		</transform>
+
+		<!-- Field of view: 30 degrees -->
+		<float name="fov" value="16"/>
+
+		<!-- 768 x 768 pixels -->
+		<integer name="width" value="768"/>
+		<integer name="height" value="768"/>
+	</camera>
+</scene>
