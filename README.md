@@ -18,9 +18,9 @@ https://wjakob.github.io/nori/#pa5
   - Image Textures
   - Procedural Texture
   
-<img src = "scenes/microfacet/1.png" width ="500" /> <img src = "scenes/microfacet/2.png" width ="500" />
-<img src = "scenes/microfacet/3.png" width ="500" /> <img src = "scenes/microfacet/cbox_mirror_pt_nee.png" width ="500" />
-<img src = "scenes/assignment3/importance_materials/cbox_dielectric_pt_nee.png" width ="500" /> <img src = "scenes/assignment3/importance_materials/cbox_mirror_pt_nee.png" width ="500" />
+<img src = "scenes/microfacet/1.png" width ="400" /> <img src = "scenes/microfacet/2.png" width ="400" />
+<img src = "scenes/microfacet/3.png" width ="400" /> <img src = "scenes/microfacet/cbox_mirror_pt_nee.png" width ="400" />
+<img src = "scenes/assignment3/importance_materials/cbox_dielectric_pt_nee.png" width ="400" /> <img src = "scenes/assignment3/importance_materials/cbox_mirror_pt_nee.png" width ="400" />
 
 # Integrators
 - Path Tracing
@@ -31,6 +31,6 @@ https://wjakob.github.io/nori/#pa5
   - BSDF importance sampling
   - direct light surface sampling
   
-<img src = "scenes/assignment3/importance_materials/veach_room_dielectric_pt_nee.png" width ="500" /> <img src = "scenes/assignment3/importance_materials/veach_room_mirror_pt_nee.png" width ="500" />
+<img src = "scenes/assignment3/importance_materials/veach_room_dielectric_pt_nee.png" width ="400" /> <img src = "scenes/assignment3/importance_materials/veach_room_mirror_pt_nee.png" width ="400" />
 
 # Participating Media
